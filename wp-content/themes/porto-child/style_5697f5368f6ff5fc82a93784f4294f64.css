@@ -1,0 +1,164 @@
+/*
+Theme Name: Porto Child
+Theme URI: https://www.portotheme.com/wordpress/porto
+Author: P-THEMES
+Author URI: https://www.portotheme.com/
+Description: Porto Responsive WordPress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+@import url('../../../../../fonts.googleapis.com/css2_ea26906713d01e7fdca47cce8eafc6f8.css');
+.fixed-header #header {
+	position: relative;
+}
+#header .header-row.container {
+	max-width: 96.6%;
+}
+#footer .container {
+	max-width: 91%;
+}
+#follow-us-widget-3 .widget-title {
+	color: #01142a;
+}
+.widget.follow-us .share-links a {
+	display: list-item;
+}
+.connect-with-us {
+	width: 100%;
+	float: left;
+	margin-bottom: 5%;
+}
+.connect-form.text {
+	width: 12%;
+	float: left;
+	color: #fff;
+	line-height: 2.3;
+	font-size: 18px;
+	font-family: poppins;
+	font-weight: 500;
+}
+.connect-form.field {
+	width: 68%;
+	float: left;
+}
+.connect-with-us-1 {
+	width: 63%;
+	margin: 0 auto;
+}
+.connect-form.field input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea, .form-control, select {
+	background: transparent;
+	border-bottom: 2px solid #fff;
+	width: 100%;
+}
+.connect-form .wpcf7-form-control.wpcf7-submit {
+	background: transparent;
+	border: unset;
+	border-bottom: 2px solid #fff;
+	padding-left: 0;
+	background: url("../images/right-arrow.png") no-repeat;
+	background-size: 7px;
+	background-position: 100% 50%;
+	padding-right: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: poppins;
+}
+.about-us-head {
+	font-size: 35px;
+	color: #000000;
+	font-family: poppins;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+.about-us-content p {
+	font-family: poppins;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 2.2;
+	text-align: justify;
+	margin-bottom: 9px;
+}
+.connect-form.submit {
+    width: 100%;
+    float: left;
+    margin-top: 14px;
+    text-align: center;
+}
+#footer .widget-title {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: poppins;
+}
+#footer .widget p {
+	font-size: 15px;
+	font-family: poppins;
+	font-weight: 400;
+	line-height: 2.7;
+}
+#footer li {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 2.7;
+}
+#footer .footer-bottom {
+	font-size: 14px;
+	font-family: poppins;
+	font-weight: 400;
+}
+#custom_html-2 p {
+	padding: 0% 20% 0 0;
+	box-sizing: border-box;
+}
+#follow-us-widget-3 .widget-title {
+	margin-bottom: 8px;
+}
+.widget.follow-us .share-links a {
+	font-size: 18px;
+	height: 33px;
+}
+.contact-us-head {
+	font-size: 30px !important;
+	letter-spacing: 0px;
+	margin-top: 3%;
+	font-family: poppins !important;
+	font-weight: 500 !important;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+	border-color: transparent;
+}
+.about-us-content h3 {
+	font-size: 23px;
+	margin-bottom: 4px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0px;
+}
+.about-us-head {
+	margin-bottom: 7px;
+}
+.about-us-content ul li {
+	line-height: 2;
+	font-size: 15px;
+	font-family: poppins;
+}
+.hover-box-text-effect h2 {
+	color: #fff;
+	font-family: roboto;
+	font-size: 26px;
+	font-weight: 400;
+}
+.hover-box-text-effect .vc-hoverbox-back-inner h2 {
+	color: #000;
+	font-family: roboto;
+	font-size: 26px;
+	font-weight: 400;
+}
+#home {
+	min-height: 609px !important;
+}
